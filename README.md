@@ -31,49 +31,8 @@ Check the prefect version:
 - $ prefect version
 
 # Running Prefect Dashboard
-- $ prefect orion start
 
-___ ___ ___ ___ ___ ___ _____    ___  ___ ___ ___  _  _
-
-| _ \ _ \ __| __| __/ __|_   _|  / _ \| _ \_ _/ _ \| \| |
-
-|  _/   / _|| _|| _| (__  | |   | (_) |   /| | (_) | .` |
-
-|_| |_|_\___|_| |___\___| |_|    \___/|_|_\___\___/|_|\_|
-
-Configure Prefect to communicate with the server with:
-
-    prefect config set PREFECT_API_URL=http://127.0.0.1:4200/api
-    
-View the API reference documentation at http://127.0.0.1:4200/docs
-
-Check out the dashboard at http://127.0.0.1:4200/
-
-Note - In Windows OS, if your path contains spaces, it will generate error (as mentioned below) when you try to run prefect orion.
-
-___ ___ ___ ___ ___ ___ _____    ___  ___ ___ ___  _  _
-
-| _ \ _ \ __| __| __/ __|_   _|  / _ \| _ \_ _/ _ \| \| |
-
-|  _/   / _|| _|| _| (__  | |   | (_) |   /| | (_) | .` |
-
-|_| |_|_\___|_| |___\___| |_|    \___/|_|_\___\___/|_|\_|
-
-Configure Prefect to communicate with the server with:
-
-    prefect config set PREFECT_API_URL=http://127.0.0.1:4200/api
-    
-View the API reference documentation at http://127.0.0.1:4200/docs
-
-Check out the dashboard at http://127.0.0.1:4200/
-
-Usage: uvicorn [OPTIONS] APP
-
-Try 'uvicorn --help' for help.
-
-Error: Got unexpected extra argument (prefect.orion.api.server:create_app)
-Orion stopped!
-
+![image](https://user-images.githubusercontent.com/65038531/193544685-564340f7-bcb6-4eec-b006-e4c9a1c3e4b0.png)
 
 # Deployment of Prefect Flow
 work_queue_name is used to submit the deployment to the a specific work queue.
