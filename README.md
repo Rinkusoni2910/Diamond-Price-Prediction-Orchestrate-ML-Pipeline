@@ -6,12 +6,19 @@
 - version_3 - Deployment and Scheduling tasks
 
 # Why Prefect?
+
 -Python based open source tool
+
 -Manage ML Pipelines
+
 -Schedule and Monitor the flow
+
 -Gives observability into failures
+
 -Native dask integration for scaling (Dask is used for parallel computing)
+
 -Creating and activating a Virtual Environment
+
 # In order to install prefect, create a virtual environment:
 - $ python -m venv mlops
 
